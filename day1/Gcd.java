@@ -9,7 +9,7 @@ public class Gcd {
 
         int i=1;
         int gcd=1;
-        while(i<=a || i<=b)
+        while(i<=a && i<=b)
         {
             if(a%i==0 &&  b%i==0)
             {
